@@ -18,7 +18,7 @@ import com.william.cloud.repository.CarRepository;
 
 @RestController
 @RequestMapping("/cars")
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "https://william-fiap-cloud-front.herokuapp.com", maxAge = 3600)
 public class CarResource {
 
 	@Autowired
